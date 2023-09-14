@@ -1,0 +1,419 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* <------basic css--------> */
+.container{
+    margin: 0 50px;
+}
+/*<!----------------navbar-section-start -------------------------> */
+
+
+.navbar{
+    padding-top: 6cqmin;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.navbar{
+
+    float: left;
+}
+.navbar ul li{
+   
+    padding: 20px;
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+}
+.navbar ul li a{
+   padding-top: 70px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    height: 30px;
+ 
+}
+
+.logo{
+
+    float: left;
+   color: purple;
+    margin-left: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 150px;
+}
+.navbar ul li a{
+
+    width: 90px;
+    height: 20px;
+font-size: 20px;
+text-transform: uppercase;
+  margin: 10px;
+color: rgb(177, 0, 177);
+padding-bottom: 8px;
+
+   
+}
+.navbar ul li a:hover{
+    margin-top: 20px;
+    border-bottom: 2px solid purple;
+}
+
+
+
+
+
+
+
+
+.contact{
+    float: right;
+}
+
+
+.contact a{
+float: left;
+
+margin-right: 100px;
+
+text-decoration: none;
+}
+
+/* <!---------------------- navbar-section-End ---------------------> */
+/* <!--------------------banner-section-start-----------------------> */
+#banner{
+  
+    margin: 0 40px;
+    padding-top: 200px;  
+}
+.banner-item{
+     display: flex;
+}
+.banner-img img{
+     margin-bottom: 200px;
+     height: 500px;
+     width: 400px;
+     border-top-right-radius: 70px ;
+     border-bottom-left-radius: 70px;
+     box-shadow: 10px 5px 5px 8px black;
+     margin-left: 200px;
+     border: 20px solid purple;
+}
+.banner-title {
+     padding-left: 150px;
+}
+.banner-title h1{
+    color: black;
+    font-size: 50px;
+    line-height: 100px;
+}
+.banner-title h2 strong{
+     color: rgb(162, 0, 162);
+     font-size: 60px;
+     text-shadow: 5px 5px 0  rgb(0, 0, 0);
+}
+.banner-title h2 {
+   font-size: 50px;
+}
+.banner-title p {
+    padding-top: 20px;
+    font-size: 40px;
+    line-height: 70px;
+    font-weight: 500px;
+}
+.banner-title p strong {
+     color: rgb(151, 5, 151);
+     font-weight: bold;
+}
+.banner-title {
+    margin-left: 10px; 
+}
+.banner-title button{
+    margin-left: 60px;
+    margin-top: 30px;
+    border: none;
+    color: black;
+    font-weight: bold;
+    height: 40px;
+    background-color: #ffffff;
+    width: 100px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 2px solid purple;
+}
+/* <!-------------------- banner-section-End -----------------------> */
+/* <!-------------------- About-me-section-start--------------------------------> */
+#About{
+    margin-top: 100px;
+    box-shadow: 5px 5px 20px 5px black;
+    margin: 100px 50px;
+}
+.about-title{
+    background-color: purple;
+    height: 20vh;
+    text-align: center;
+    padding-left: 450px;
+    padding-top: 80px;
+  
+}
+.about-title h1{
+
+    font-size: 40px;
+    color: #ffffff;
+    width: 0ch;
+    white-space:nowrap;
+    overflow: hidden;
+    animation: text 6s steps(20) infinite;
+    border-right: 4px solid rgb(255, 255, 255);
+}
+@keyframes text {
+    0%{
+        width: 0ch;
+    }
+50%{
+width:30ch;
+}
+}
+.about-list{
+    padding-top: 50px;
+    height: 107vh;
+    display: flex;
+    background-color: purple;
+}
+.about-item1{
+    background-color: #ffffff; 
+    padding-right: 90px;
+    padding-bottom: 50px;
+}
+.about-item1 button{
+    border:none;
+    margin-top: 20px;
+    margin-left: 120px;
+    background-color: purple;
+    height: 40px;
+    width: 130px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 20px;
+ 
+}
+.about-item1 h1{
+
+    margin-left: 120px;
+    font-size: 30px;
+    color: rgb(160, 0, 160);
+}
+.about-item1 h2{
+    
+    margin-left: 100px;
+    font-size: 20px;
+    color: rgb(160, 0, 160);
+    padding-bottom: 20px;
+}
+.about-item1 img{
+     margin-bottom: 30px;
+     height: 200px;
+     width: 200px;
+     background-color: purple;
+     margin-top: 20px;
+     border-radius: 50%;
+     margin-left: 90px;
+     border: 5px solid purple;
+  margin-top: 50px;
+}
+.about-item2{
+    padding-top: 110px;
+    text-align: center;
+    padding-left: 500px;
+    padding-right: 200px;
+}
+.about-item2 h1{
+    font-size: 40px;
+    color: #ffffff;
+}
+.about-item2 p{
+    padding-top: 20px;
+    font-size: 20px;
+    color: #ffffff;
+    word-spacing: 10px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+.about-item2 button{
+    border: none;
+    background-color: purple;
+    color: #ffffff;
+    font-weight: bold;
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    border:2px solid #ffffff;
+   
+}
+/* <!-------------------- About-me-section-End--------------------------------> */
+/* <!--------------------------------- my-work-section-start --------------------> */
+#my-work{
+    box-shadow: 5px 5px 20px 8px black;
+    margin-top: 200px;
+    margin: 100px 70px;
+ 
+}
+.work-list h1{
+   
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 20px;
+    padding-top: 80px;
+    color: rgb(133, 0, 133);
+}
+.work-item{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px, 1fr));
+    grid-gap: 8px;
+    margin: 50px;
+margin: 50px;
+    
+}
+.work-item img{
+    width: 100%;
+    height: 400px;
+    border-radius: 30px;
+    border: 10px solid rgb(133, 0, 133);
+
+}
+/* <!--------------------------------- my-work-section-end--------------------> */
+
+/* <!---------------------card-section-start--------------------------> */
+#card{
+    box-shadow: 5px 5px 20px 8px black;
+    margin-top: 200px;
+    margin: 100px 70px;
+}
+#card .card-area h2{
+    margin-bottom: 50px;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 7px;
+    color: rgb(165, 5, 165);
+    text-transform: uppercase;
+    padding-top: 90px;
+}
+.card-list{
+    display: flex;
+}
+.card-itam{
+    background-color: aquamarine;
+    height: 400px;
+    width: 200px;
+    border-bottom-left-radius: 50px ;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0px 5px 5px 5px black;
+    margin-left: 72px;
+    margin-bottom: 120px;
+}
+.card-itam img{
+    height: 150px;
+    width: 200px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.card-itam h4{
+    padding-top: 10px;
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(165, 5, 165);
+}
+.card-itam p{
+    padding-top: 10px;
+    font-size: 14px;
+    color: rgb(111, 103, 103);
+    text-align: center;
+}
+.card-itam  button {
+  
+    border: none;
+    color: #ffffff; 
+    font-weight: bold;
+    height: 40px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: rgb(165, 5, 165);
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.card-itam strong{
+    padding-left: 50px;
+}
+.card-itam .fa-star{
+    color:rgb(255, 106, 0)
+}
+/* <!-------------------card-section-End-------------------------------------> */
+
+/*<!-----------------------footer-section-start---------------------------------> */
+#footer{
+    box-shadow: 5px 5px 20px 6px black;
+    margin: 100px 70px;
+    margin-bottom: 0;
+    text-align: center;
+}
+.footer-area{
+    padding-top: 100px;
+    height: 90vh;
+    background-color: purple;
+}
+.footer-item{
+    height: 400px;
+    width: 500px;
+    box-shadow: 5px 5px 20px 6px black;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    margin: 10px 500px;
+    border-radius: 50px;
+}
+.footer-item h2{
+    color: #ffffff;
+    font-size: 30px;
+}
+.footer-item input{
+    text-align: center;
+    border: none;
+    background-color: purple;
+    color: rgb(255, 253, 253);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black; 
+}
+.footer-item ::placeholder{
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+.footer-item button{
+    border: none;
+    color: #000000;
+    height: 30px;
+    width: 100px;
+    border-radius: 30px;
+    border: 2px purple;
+    background-color: rgb(255, 255, 255);
+}
+.social-media{
+    padding-top: 30px;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    padding-left: 70px;
+
+}
+/* <!-----------------------footer-section-end-------------------------------> */
